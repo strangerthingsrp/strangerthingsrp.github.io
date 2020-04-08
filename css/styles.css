@@ -26,6 +26,11 @@ div#content div a.lienn{
 	color: blue;
 }
 
+a.lien{
+	text-decoration-line: none;
+	color: blue;
+}
+
 div#content div.leftbox{
 	background-color: #908887;
 	vertical-align: top;
