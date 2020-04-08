@@ -21,12 +21,17 @@ div#content div a.lien{
 	color: blue;
 }
 
+div#content div a.lienn{
+	text-decoration-line: none;
+	color: blue;
+}
+
 div#content div.leftbox{
-	background-color: #40F06F;
+	background-color: #908887;
 	vertical-align: top;
  }
  div#content div.rightbox{
- 	background-color: #40F06F;
+ 	background-color: #908887;
  }
 nav.menu-nav ul li.btn a{
 	color: white;
@@ -94,7 +99,7 @@ footer{
 	color: white;
 }
 body{
-	background-color: #fff;
+	background-color: #777;
 }
 
 a.mailbox{
@@ -104,4 +109,8 @@ a.mailbox{
 
 h1.headline{
 	padding-left: 575px;
+}
+
+img{
+	padding-left: 485px;
 }
