@@ -1,0 +1,107 @@
+
+div#content div h1, p, iframe{
+	margin: 35px;
+}
+
+div#content div h2{
+	margin: 35px;
+}
+
+div#content div p.ip{
+	padding-left: : 700px;
+}
+
+div#content div{
+	display: inline-block;
+	width: 49%
+}
+
+div#content div a.lien{
+	text-decoration-line: none;
+	color: blue;
+}
+
+div#content div.leftbox{
+	background-color: #40F06F;
+	vertical-align: top;
+ }
+ div#content div.rightbox{
+ 	background-color: #40F06F;
+ }
+nav.menu-nav ul li.btn a{
+	color: white;
+	text-decoration-line: none;
+	background-color: #8F9796;
+	padding: 10px;
+	font-size: 25px;
+}
+
+nav.menu-nav ul li.btn{
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav.menu-nav ul li.btn:hover a{
+	color: white;
+	background-color: #C3CBCA;
+	transition: 0.4s all;
+
+}
+
+nav.contact-nav ul li.btn2 a{
+	color: white;
+	text-decoration-line: none;
+	background-color: #8F9796;
+	padding: 10px;
+	font-size: 25px;
+}
+
+nav.contact-nav ul li.btn2{
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav.contact-nav ul li.btn2:hover a{
+	color: white;
+	background-color: #C3CBCA;
+	transition: 0.4s all;
+
+}
+
+nav.news-nav ul li.btn3 a{
+	color: white;
+	text-decoration-line: none;
+	background-color: #8F9796;
+	padding: 10px;
+	font-size: 25px;
+}
+
+nav.news-nav ul li.btn3{
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav.news-nav ul li.btn3:hover a{
+	color: white;
+	background-color: #C3CBCA;
+	transition: 0.4s all;
+
+}
+
+footer{
+	background-color: black;
+	padding: 10px;
+	color: white;
+}
+body{
+	background-color: #fff;
+}
+
+a.mailbox{
+	text-decoration-line: none;
+	color: blue;
+}
+
+h1.headline{
+	padding-left: 575px;
+}

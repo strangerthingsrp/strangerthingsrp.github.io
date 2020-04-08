@@ -1,0 +1,79 @@
+<?php
+	$status = $data->status->online ? "En ligne" : "Hors ligne";
+?>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Actualités !</title>
+	<meta charset="utf-8"> 
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+	<header>
+		<img src="img/header.jpg">
+	</header>
+
+	<nav class="news-nav">
+		<ul>
+			<li class="btn3">
+				<a href="index.html">
+					Accueil
+				</a>
+			</li>
+			<li class="btn3">
+				<a href="#">
+					Actualités
+				</a>
+			</li>
+			<li class="btn3">
+				<a href="contact.html">
+					Contact
+				</a>
+			</li>
+
+			<li class="btn3">
+				<a href="grades.html">
+					Boutique
+				</a>
+			</li>
+
+		</ul>
+	</nav>
+
+	<p>
+		Les differentes actus de notre serveur
+	</p>
+
+	<div id="content">
+		
+		<div class="rightbox">
+			<h1>
+				Dernière mise à jour !
+			</h1>
+			<p>
+				Aucune mise à jour réalisée !
+			</p>
+		</div>
+
+		<div class="leftbox">
+			<h1>
+				État du serveur !
+			</h1>
+			<p>
+				<?= $status; ?>
+			</p>
+
+		</div>
+
+	</div>
+
+	<footer>
+		Copyright &copy; Tempoleria - 2019-2020 - All Right Reserved
+	</footer>
+
+
+</body>
+</html>
